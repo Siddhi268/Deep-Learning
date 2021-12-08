@@ -25,6 +25,7 @@ Dataset can be downloaded from ( https://www.kaggle.com/mlg-ulb/creditcardfraud 
 
 It is evident from the below plot that data is highly imbalanced. The dataset has only 492 fraudulent transactions out of a total of 284,807 transactions, which is a mere 0.17%.
 
+![imbalance](https://user-images.githubusercontent.com/73767113/145210985-66ee4bb3-790d-457b-9f5c-7366c2cab1e5.jpg)
 
 ## Problem with imbalance data
 
@@ -39,20 +40,17 @@ In undersampling, we balance uneven dataset by keeping minority class as it is a
 
 ![undersampling](https://user-images.githubusercontent.com/73767113/145209185-2619d991-0725-46e3-abda-1642e7f30087.jpg)
 
-
 2.OVER SAMPLING:
 
 In oversampling, we balance uneven dataset by creating duplicate data in minority class to equalize to size of majority class.
 
 ![Oversampling](https://user-images.githubusercontent.com/73767113/145209227-c687e536-453a-4d99-a792-7053e4ca81aa.jpg)
 
-
 3.SMOTE(Synthetic Minority Over-sampling Technique):
 
 In SMOTE, we balance uneven dataset by creating new synthetic data in minority class to equalize to size of majority class.
 
 ![Smote](https://user-images.githubusercontent.com/73767113/145209254-84b81a38-3991-4f59-86a6-68d05d2055b7.jpg)
-
 
 ## Results
 
@@ -67,7 +65,6 @@ In SMOTE, we balance uneven dataset by creating new synthetic data in minority c
 3.SMOTE
 
 ![smote_result](https://user-images.githubusercontent.com/73767113/145209483-76116387-b885-4623-9931-ecd6f8ef6b2f.jpg)
-
 
 ## Conclusion
 One might argue that the reduced accuracy is an indicator of lower model performance. However, this is not true.
