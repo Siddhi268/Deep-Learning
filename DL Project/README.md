@@ -23,7 +23,7 @@ Dataset can be downloaded from ( https://www.kaggle.com/mlg-ulb/creditcardfraud 
 
 ### Data Imbalance
 
-It is evident from the below plot that data is highly imbalanced. The dataset has only 492 fraudulent transactions out of a total of 284,807 transactions, which is a mere 0.17%.
+It is evident from the below pie-plot that data is highly imbalanced. The dataset has only 492 fraudulent transactions out of a total of 284,807 transactions, which is a mere 0.17%.
 
 ![imbalance](https://user-images.githubusercontent.com/73767113/145210985-66ee4bb3-790d-457b-9f5c-7366c2cab1e5.jpg)
 
